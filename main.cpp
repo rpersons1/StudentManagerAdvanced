@@ -10,6 +10,7 @@ int main()
     string lastName;
     student person;
     
+    cout<<person.fullName()<<"'s Course grade is: "<<endl;
     cout<<"What is the student's name? ";
     cin>>firstName>>lastName;
     
